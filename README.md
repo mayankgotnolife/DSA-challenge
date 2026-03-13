@@ -15,7 +15,7 @@
 
 ---
 
-🟠 **Language : Java**　　　🟡 **Platform : LeetCode**　　　🟢 **Status : Active 🔥**　　　🔵 **Solved : 12 Problems**
+🟠 **Language : Java**　　　🟡 **Platform : LeetCode**　　　🟢 **Status : Active 🔥**　　　🔵 **Solved : 26 Problems**
 
 </div>
 
@@ -41,19 +41,27 @@ DSA-challenge/
 │
 ├── 📄 README.md
 │
-└── 📂 Arrays/
-    ├── 📂 26-remove-duplicates-from-sorted-array/
-    ├── 📂 33-search-in-rotated-sorted-array/
-    ├── 📂 53-maximum-subarray/
-    ├── 📂 54-spiral-matrix/
-    ├── 📂 121-best-time-to-buy-and-sell-stock/
-    ├── 📂 136-single-number/
-    ├── 📂 152-maximum-product-subarray/
-    ├── 📂 153-find-minimum-in-rotated-sorted-array/
-    ├── 📂 189-rotate-array/
-    ├── 📂 238-product-of-array-except-self/
-    ├── 📂 560-subarray-sum-equals-k/
-    └── 📂 1878-check-if-array-is-sorted-and-rotated/
+├── 📂 Arrays/                 ✅ Active — 26 Solved
+│   ├── 📄 README.md
+│   ├── 📄 README.md (hierarchy)
+│   ├── 01-Binary-Search/
+│   ├── 02-Two-Pointer/
+│   ├── 03-Kadanes-Algorithm/
+│   ├── 04-Array-Rotation-and-Manipulation/
+│   ├── 05-Matrix-2D-Array/
+│   ├── 06-Monotonic-Stack/
+│   ├── 07-Prefix-Suffix/
+│   ├── 08-HashMap-HashSet/
+│   └── 09-Greedy/
+│
+├── 📂 Strings/                ⏳ Next
+│   └── 📄 README.md
+│
+├── 📂 LinkedList/             ⏳ Soon
+│   └── 📄 README.md
+│
+└── 📂 Trees/                  ⏳ Soon
+    └── 📄 README.md
 ```
 
 ---
@@ -63,21 +71,21 @@ DSA-challenge/
 ╔══════════════════════════════════════════════════════════════╗
 ║  TOPIC PROGRESS                                              ║
 ╠══════════════════════════════════════════════════════════════╣
-║  Arrays        ████████████░░░░░░░░  12 / ~30   🔥 Active  ║
+║  Arrays        ████████████████░░░░  26 / ~40   🔥 Active  ║
 ║  Strings       ░░░░░░░░░░░░░░░░░░░░   0 / ~20   ⏳ Next    ║
 ║  Linked Lists  ░░░░░░░░░░░░░░░░░░░░   0 / ~15   ⏳ Soon    ║
 ║  Trees         ░░░░░░░░░░░░░░░░░░░░   0 / ~20   ⏳ Soon    ║
 ║  Dynamic Prog  ░░░░░░░░░░░░░░░░░░░░   0 / ~25   ⏳ Soon    ║
 ╠══════════════════════════════════════════════════════════════╣
-║  Total Solved  ████░░░░░░░░░░░░░░░░  12 Problems            ║
+║  Total Solved  ████░░░░░░░░░░░░░░░░  26 / ~120 Problems     ║
 ╚══════════════════════════════════════════════════════════════╝
 ```
 ```
 DIFFICULTY BREAKDOWN
 ─────────────────────────────────────────
-  🟢 Easy    ████████░░░░   4 problems  (33%)
-  🟡 Medium  ████████████   8 problems  (67%)
-  🔴 Hard    ░░░░░░░░░░░░   0 problems  ( 0%)
+  🟢 Easy    ████████░░░░   8 problems  (31%)
+  🟡 Medium  ████████████  17 problems  (65%)
+  🔴 Hard    ██░░░░░░░░░░   1 problem   ( 4%)
 ─────────────────────────────────────────
 ```
 
@@ -87,18 +95,32 @@ DIFFICULTY BREAKDOWN
 
 | # | Problem | Difficulty | Pattern | LeetCode |
 |---|---------|------------|---------|----------|
-| 1 | Remove Duplicates from Sorted Array | 🟢 Easy | Two Pointer | [#26](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) |
-| 2 | Search in Rotated Sorted Array | 🟡 Medium | Binary Search | [#33](https://leetcode.com/problems/search-in-rotated-sorted-array/) |
-| 3 | Maximum Subarray | 🟡 Medium | Kadane's Algorithm | [#53](https://leetcode.com/problems/maximum-subarray/) |
-| 4 | Spiral Matrix | 🟡 Medium | Matrix Traversal | [#54](https://leetcode.com/problems/spiral-matrix/) |
-| 5 | Best Time to Buy and Sell Stock | 🟢 Easy | Greedy / Sliding Window | [#121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |
-| 6 | Single Number | 🟢 Easy | Bit Manipulation XOR | [#136](https://leetcode.com/problems/single-number/) |
-| 7 | Maximum Product Subarray | 🟡 Medium | Dynamic Programming | [#152](https://leetcode.com/problems/maximum-product-subarray/) |
-| 8 | Find Minimum in Rotated Sorted Array | 🟡 Medium | Binary Search | [#153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) |
-| 9 | Rotate Array | 🟡 Medium | Array Manipulation | [#189](https://leetcode.com/problems/rotate-array/) |
-| 10 | Product of Array Except Self | 🟡 Medium | Prefix / Suffix Product | [#238](https://leetcode.com/problems/product-of-array-except-self/) |
-| 11 | Subarray Sum Equals K | 🟡 Medium | Hash Map + Prefix Sum | [#560](https://leetcode.com/problems/subarray-sum-equals-k/) |
-| 12 | Check if Array is Sorted and Rotated | 🟢 Easy | Array Traversal | [#1878](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/) |
+| 1 | 3Sum | 🟡 Medium | Two Pointer | [#15](https://leetcode.com/problems/3sum/) |
+| 2 | 4Sum | 🟡 Medium | Two Pointer | [#18](https://leetcode.com/problems/4sum/) |
+| 3 | Remove Duplicates from Sorted Array | 🟢 Easy | Two Pointer | [#26](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) |
+| 4 | Remove Element | 🟢 Easy | Two Pointer | [#27](https://leetcode.com/problems/remove-element/) |
+| 5 | Next Permutation | 🟡 Medium | Array Manipulation | [#31](https://leetcode.com/problems/next-permutation/) |
+| 6 | Search in Rotated Sorted Array | 🟡 Medium | Binary Search | [#33](https://leetcode.com/problems/search-in-rotated-sorted-array/) |
+| 7 | Rotate Image | 🟡 Medium | Matrix | [#48](https://leetcode.com/problems/rotate-image/) |
+| 8 | Maximum Subarray | 🟡 Medium | Kadane's Algorithm | [#53](https://leetcode.com/problems/maximum-subarray/) |
+| 9 | Spiral Matrix | 🟡 Medium | Matrix Traversal | [#54](https://leetcode.com/problems/spiral-matrix/) |
+| 10 | Set Matrix Zeroes | 🟡 Medium | Matrix | [#73](https://leetcode.com/problems/set-matrix-zeroes/) |
+| 11 | Remove Duplicates from Sorted Array II | 🟡 Medium | Two Pointer | [#80](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) |
+| 12 | Largest Rectangle in Histogram | 🔴 Hard | Monotonic Stack | [#84](https://leetcode.com/problems/largest-rectangle-in-histogram/) |
+| 13 | Best Time to Buy and Sell Stock | 🟢 Easy | Greedy | [#121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |
+| 14 | Longest Consecutive Sequence | 🟡 Medium | HashMap | [#128](https://leetcode.com/problems/longest-consecutive-sequence/) |
+| 15 | Single Number | 🟢 Easy | Bit Manipulation XOR | [#136](https://leetcode.com/problems/single-number/) |
+| 16 | Evaluate Reverse Polish Notation | 🟡 Medium | Monotonic Stack | [#150](https://leetcode.com/problems/evaluate-reverse-polish-notation/) |
+| 17 | Maximum Product Subarray | 🟡 Medium | Kadane's Algorithm | [#152](https://leetcode.com/problems/maximum-product-subarray/) |
+| 18 | Find Minimum in Rotated Sorted Array | 🟡 Medium | Binary Search | [#153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) |
+| 19 | Majority Element | 🟢 Easy | Greedy / Boyer-Moore | [#169](https://leetcode.com/problems/majority-element/) |
+| 20 | Rotate Array | 🟡 Medium | Array Rotation | [#189](https://leetcode.com/problems/rotate-array/) |
+| 21 | Product of Array Except Self | 🟡 Medium | Prefix / Suffix Product | [#238](https://leetcode.com/problems/product-of-array-except-self/) |
+| 22 | Subarray Sum Equals K | 🟡 Medium | Hash Map + Prefix Sum | [#560](https://leetcode.com/problems/subarray-sum-equals-k/) |
+| 23 | Sum of Subarray Minimums | 🟡 Medium | Monotonic Stack | [#943](https://leetcode.com/problems/sum-of-subarray-minimums/) |
+| 24 | Check if Array is Sorted and Rotated | 🟢 Easy | Array Traversal | [#1878](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/) |
+| 25 | Rearrange Array Elements by Sign | 🟡 Medium | Two Pointer | [#2271](https://leetcode.com/problems/rearrange-array-elements-by-sign/) |
+| 26 | Merge Two 2D Arrays by Summing Values | 🟢 Easy | Two Pointer | [#2707](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/) |
 
 ---
 
@@ -108,12 +130,14 @@ DIFFICULTY BREAKDOWN
 |---------|----------|----------------|
 | 🔍 Binary Search | #33, #153 | O(log n) search in sorted/rotated arrays |
 | 📊 Kadane's Algorithm | #53, #152 | Optimal subarray problems |
-| 👆 Two Pointer | #26 | Efficient in-place array manipulation |
+| 👆 Two Pointer | #15, #18, #26, #27, #80, #2271, #2707 | Efficient in-place array manipulation |
 | 🗺️ Prefix / Suffix | #238, #560 | Range queries without division |
 | ⚡ Bit Manipulation | #136 | XOR tricks for duplicates and pairs |
-| 🔄 Array Rotation | #189, #1878 | Cyclic shifts and rotation checks |
-| 💹 Greedy | #121 | Local optimal = global optimal |
-| 🌀 Matrix Traversal | #54 | 2D array direction control |
+| 🔄 Array Rotation | #31, #189, #1878 | Cyclic shifts and rotation checks |
+| 💹 Greedy | #121, #169 | Local optimal = global optimal |
+| 🌀 Matrix Traversal | #48, #54, #73 | 2D array direction control |
+| 📚 Monotonic Stack | #84, #943, #150 | Next/previous greater element problems |
+| 🗂️ HashMap / HashSet | #128, #560 | Fast lookups and frequency counting |
 
 ---
 
@@ -122,9 +146,9 @@ DIFFICULTY BREAKDOWN
 ╔══════════════════════════════════════════════════════════════════════╗
 ║  WHAT YOU SEE                  WHAT IT MEANS                        ║
 ╠══════════════════════════════════════════════════════════════════════╣
-║  ✅ 12 problems solved       → Active, consistent daily practice     ║
-║  ✅ 8 Medium problems        → Real interview-level comfort zone      ║
-║  ✅ 8 different patterns     → Deep understanding, not memorization   ║
+║  ✅ 26 problems solved       → Active, consistent daily practice     ║
+║  ✅ 17 Medium problems       → Real interview-level comfort zone      ║
+║  ✅ 10 different patterns    → Deep understanding, not memorization   ║
 ║  ✅ Auto-synced via LeetSync → Real accepted solutions on LeetCode    ║
 ║  ✅ Structured repo          → Clean code organisation habit          ║
 ║  ✅ Java throughout          → Strong enterprise language command     ║
@@ -135,10 +159,10 @@ DIFFICULTY BREAKDOWN
 
 ## 🚀 What is Coming Next
 
-- [ ] Complete all core Array patterns (~30 problems)
-- [ ] Start **Strings** topic
-- [ ] Add **Linked Lists** folder
-- [ ] Add **Trees and Binary Search Trees**
+- [ ] Complete all core Array patterns (~40 problems)
+- [ ] Start **Strings** topic — Sliding Window, HashMap
+- [ ] Add **Linked Lists** — Fast & Slow Pointer, Reverse
+- [ ] Add **Trees** — DFS, BFS, BST
 - [ ] Tackle first **Hard** level problems
 - [ ] Add time and space complexity notes to each solution
 
@@ -155,6 +179,7 @@ DIFFICULTY BREAKDOWN
 ---
 
 <div align="center">
+
 ```
 Every commit is a step forward.
 Every problem solved is a skill unlocked.
@@ -163,5 +188,7 @@ I am becoming the developer who deserves to be hired.
 ```
 
 ⭐ Star this repo if it inspires your own DSA journey!
+
+*Last Updated: March 2026*
 
 </div>
