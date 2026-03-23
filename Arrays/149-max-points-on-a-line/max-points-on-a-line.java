@@ -1,51 +1,24 @@
 class Solution {
-    private int gcd(int a, int b){
-        if(b == 0) return a;
-        return gcd(b, a % b);
-    }
-    
-    public int maxPoints(int[] [] points) {
-        int n = points.length;
-        if(n <= 2) return n;
-        
-        int maxCount = 0;
-       
-        for(int i = 0; i < n; i++){
-            Map<String, Integer> slopeCount = new HashMap<>();
-            int duplicate = 0;
-            int currentMax = 0;
-           
-            for(int j = 0; j < n; j++){
-                if(i == j) continue;
-                
-                int dx = points[j][0] - points[i][0];  
-                int dy = points[j][1] - points[i][1];  
-                
-                
-                if(dx == 0 && dy == 0){
-                    duplicate++;
-                    continue;
+
+    public int maxPoints(int[][] points) {
+        int n = points.length - 1, max = 0;
+        double[] ratios = new double[n];
+        int[] count = new int[n];
+        for(int i = 0; i < n; i++) {
+            int xc = 0, yc = 0, r = 0, k;
+            for(int j = i + 1; j <= n; j++) {
+                if(points[i][0] == points[j][0]) xc++;
+                else if(points[i][1] == points[j][1]) yc++;
+                else {
+                    double ratio = (double) (points[i][0] - points[j][0]) / (points[i][1] - points[j][1]);
+                    for(k = 0; k < r; k++) if(ratios[k] == ratio) { count[k]++; break; }
+                    if(k == r) { ratios[k] = ratio; count[k] = 1; r++; }
+                    max = Math.max(max, count[k]);
                 }
-                
-                
-                int d = gcd(Math.abs(dx), Math.abs(dy));
-                dx /= d;
-                dy /= d;
-                
-                
-                if(dx < 0){
-                    dx = -dx;
-                    dy = -dy;
-                }
-                
-                String slope = dx + "-" + dy;
-                slopeCount.put(slope, slopeCount.getOrDefault(slope, 0) + 1);
-                currentMax = Math.max(currentMax, slopeCount.get(slope));
             }
-            
-            maxCount = Math.max(maxCount, currentMax + duplicate + 1);
+            max = Math.max(max, xc);
+            max = Math.max(max, yc);
         }
-        
-        return maxCount;
+        return max + 1;
     }
 }
