@@ -1,31 +1,28 @@
 class Solution {
     public int[] relativeSortArray(int[] arr1, int[] arr2) {
-          Map<Integer, Integer> order = new HashMap<>();
-        for(int i = 0; i < arr2.length; i++){
-            order.put(arr2[i], i);
-        }
-        
-        Integer[] result = new Integer[arr1.length];
+        int[] count = new int[1001];
         for(int i = 0; i < arr1.length; i++){
-            result[i] = arr1[i];
+            count[arr1[i]]++;
         }
-        Arrays.sort(result, (a, b) -> {
-            if(order.containsKey(a) && order.containsKey(b)){
-                return order.get(a) - order.get(b);
-            }
-            if(order.containsKey(a)){
-                return -1;
-            }
-            if(order.containsKey(b)){
-                return 1;
-            }
-            return a - b;
-        });
+        int[] result = new int[arr1.length];
+        int index = 0;
         
-        int[] res = new int[result.length];
-        for(int i = 0; i < result.length; i++){
-            res[i] = result[i];
+        for(int i = 0; i < arr2.length; i++){
+            while(count[arr2[i]] > 0){
+                result[index] = arr2[i];
+                index++;
+                count[arr2[i]]--;
+            }
         }
-        return res;
+       
+        for(int i = 0; i < 1001; i++){
+            while(count[i] > 0){
+                result[index] = i;
+                index++;
+                count[i]--;
+            }
+        }
+        
+        return result;
     }
 }
