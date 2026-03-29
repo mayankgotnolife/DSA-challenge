@@ -15,7 +15,7 @@
 
 ---
 
-🟠 **Language : Java**　　　🟡 **Platform : LeetCode**　　　🟢 **Status : Active 🔥**　　　🔵 **Solved : 26 Problems**
+🔵 **Solved : 71 Problems** (LeetSync + Manual)
 
 </div>
 
@@ -41,7 +41,7 @@ DSA-challenge/
 │
 ├── 📄 README.md
 │
-├── 📂 Arrays/                 ✅ Active — 26 Solved
+Arrays/                 ✅ Active — 71 Solved
 │   ├── 📄 README.md
 │   ├── 📄 README.md (hierarchy)
 │   ├── 01-Binary-Search/
@@ -71,13 +71,13 @@ DSA-challenge/
 ╔══════════════════════════════════════════════════════════════╗
 ║  TOPIC PROGRESS                                              ║
 ╠══════════════════════════════════════════════════════════════╣
-║  Arrays        ████████████████░░░░  26 / ~40   🔥 Active  ║
+Arrays        ████████████████████░░  71 / ~100  🔥 Active  (26 Manual + 45 LeetSync)
 ║  Strings       ░░░░░░░░░░░░░░░░░░░░   0 / ~20   ⏳ Next    ║
 ║  Linked Lists  ░░░░░░░░░░░░░░░░░░░░   0 / ~15   ⏳ Soon    ║
 ║  Trees         ░░░░░░░░░░░░░░░░░░░░   0 / ~20   ⏳ Soon    ║
 ║  Dynamic Prog  ░░░░░░░░░░░░░░░░░░░░   0 / ~25   ⏳ Soon    ║
 ╠══════════════════════════════════════════════════════════════╣
-║  Total Solved  ████░░░░░░░░░░░░░░░░  26 / ~120 Problems     ║
+║  Total Solved  ████████░░░░░░░░░░░░  71 / ~120 Problems     ║
 ╚══════════════════════════════════════════════════════════════╝
 ```
 ```

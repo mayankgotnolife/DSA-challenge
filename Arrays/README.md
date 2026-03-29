@@ -44,7 +44,7 @@ Arrays/
 ```
 
 ## 🔢 Quick Stats
-- Total Problems: **26**
+Total Problems: **71** (26 Manual Pattern + 45 LeetSync)
 - Categories: **9**
 - Most in: Two Pointer (7)
 
