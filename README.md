@@ -141,20 +141,6 @@ DIFFICULTY BREAKDOWN
 
 ---
 
-## 🎯 Why This Matters For Recruiters
-```
-╔══════════════════════════════════════════════════════════════════════╗
-║  WHAT YOU SEE                  WHAT IT MEANS                        ║
-╠══════════════════════════════════════════════════════════════════════╣
-║  ✅ 26 problems solved       → Active, consistent daily practice     ║
-║  ✅ 17 Medium problems       → Real interview-level comfort zone      ║
-║  ✅ 10 different patterns    → Deep understanding, not memorization   ║
-║  ✅ Auto-synced via LeetSync → Real accepted solutions on LeetCode    ║
-║  ✅ Structured repo          → Clean code organisation habit          ║
-║  ✅ Java throughout          → Strong enterprise language command     ║
-╚══════════════════════════════════════════════════════════════════════╝
-```
-
 ---
 
 ## 🚀 What is Coming Next
