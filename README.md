@@ -41,27 +41,27 @@ DSA-challenge/
 │
 ├── 📄 README.md
 │
-Arrays/                 ✅ Active — 71 Solved
-│   ├── 📄 README.md
-│   ├── 📄 README.md (hierarchy)
-│   ├── 01-Binary-Search/
-│   ├── 02-Two-Pointer/
-│   ├── 03-Kadanes-Algorithm/
-│   ├── 04-Array-Rotation-and-Manipulation/
-│   ├── 05-Matrix-2D-Array/
-│   ├── 06-Monotonic-Stack/
-│   ├── 07-Prefix-Suffix/
-│   ├── 08-HashMap-HashSet/
-│   └── 09-Greedy/
-│
-├── 📂 Strings/                ⏳ Next
-│   └── 📄 README.md
-│
-├── 📂 LinkedList/             ⏳ Soon
-│   └── 📄 README.md
-│
-└── 📂 Trees/                  ⏳ Soon
-    └── 📄 README.md
+└── 📂 Data-Structure/
+    ├── 📂 Arrays/                 ✅ Active — 71 Solved
+    │   ├── 📄 README.md
+    │   ├── 01-Binary-Search/
+    │   ├── 02-Two-Pointer/
+    │   ├── 03-Kadanes-Algorithm/
+    │   ├── 04-Array-Rotation-and-Manipulation/
+    │   ├── 05-Matrix-2D-Array/
+    │   ├── 06-Monotonic-Stack/
+    │   ├── 07-Prefix-Suffix/
+    │   ├── 08-HashMap-HashSet/
+    │   └── 09-Greedy/
+    │
+    ├── 📂 Strings/                ⏳ Next
+    │   └── 📄 README.md
+    │
+    ├── 📂 LinkedList/             ⏳ Soon
+    │   └── 📄 README.md
+    │
+    └── 📂 Trees/                  ⏳ Soon
+        └── 📄 README.md
 ```
 
 ---
