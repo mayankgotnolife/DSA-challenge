@@ -15,7 +15,7 @@
 
 ---
 
-🔵 **Solved : 71 Problems** 
+🔵 **Solved : 82 Problems** 
 
 </div>
 
@@ -54,7 +54,7 @@ Arrays/                 ✅ Active — 71 Solved
 │   ├── 08-HashMap-HashSet/
 │   └── 09-Greedy/
 │
-├── 📂 Strings/                ⏳ Next
+├── 📂 Strings/                ✅ Active — 11 Solved
 │   └── 📄 README.md
 │
 ├── 📂 LinkedList/             ⏳ Soon
@@ -72,12 +72,12 @@ Arrays/                 ✅ Active — 71 Solved
 ║  TOPIC PROGRESS                                              ║
 ╠══════════════════════════════════════════════════════════════╣
 Arrays        ████████████████████░░  71 / ~100  🔥 Active    ║
-║  Strings       ░░░░░░░░░░░░░░░░░░░░   0 / ~20   ⏳ Next     ║
+║  Strings       ████████░░░░░░░░░░░░  11 / ~20   🔥 Active    ║
 ║  Linked Lists  ░░░░░░░░░░░░░░░░░░░░   0 / ~15   ⏳ Soon     ║
 ║  Trees         ░░░░░░░░░░░░░░░░░░░░   0 / ~20   ⏳ Soon     ║
 ║  Dynamic Prog  ░░░░░░░░░░░░░░░░░░░░   0 / ~25   ⏳ Soon     ║
 ╠══════════════════════════════════════════════════════════════╣
-║  Total Solved  ████████░░░░░░░░░░░░  71 / ~180 Problems      ║
+║  Total Solved  ████████░░░░░░░░░░░░  82 / ~180 Problems      ║
 ╚══════════════════════════════════════════════════════════════╝
 ```
 ```
@@ -143,10 +143,29 @@ DIFFICULTY BREAKDOWN
 
 ---
 
+## ✅ Solved Questions — Strings
+
+| # | Problem | Difficulty | Pattern | LeetCode |
+|---|---------|------------|---------|----------|
+| 1 | Gray Code | 🟡 Medium | Bit Manipulation | [#89](https://leetcode.com/problems/gray-code/) |
+| 2 | Single Number II | 🟡 Medium | Bit Manipulation | [#137](https://leetcode.com/problems/single-number-ii/) |
+| 3 | Number of Digit One | 🔴 Hard | Math | [#233](https://leetcode.com/problems/number-of-digit-one/) |
+| 4 | Sum of Two Integers | 🟡 Medium | Bit Manipulation | [#371](https://leetcode.com/problems/sum-of-two-integers/) |
+| 5 | Repeated Substring Pattern | 🟢 Easy | String Manipulation | [#459](https://leetcode.com/problems/repeated-substring-pattern/) |
+| 6 | License Key Formatting | 🟡 Medium | String Manipulation | [#482](https://leetcode.com/problems/license-key-formatting/) |
+| 7 | Detect Capital | 🟢 Easy | String Manipulation | [#520](https://leetcode.com/problems/detect-capital/) |
+| 8 | Masking Personal Information | 🟡 Medium | String Manipulation | [#858](https://leetcode.com/problems/masking-personal-information/) |
+| 9 | Walking Robot Simulation | 🟡 Medium | Simulation | [#906](https://leetcode.com/problems/walking-robot-simulation/) |
+| 10 | Construct Target Array with Multiple Sums | 🔴 Hard | Greedy / Heap | [#1479](https://leetcode.com/problems/construct-target-array-with-multiple-sums/) |
+| 11 | Maximum Ice Cream Bars | 🟡 Medium | Greedy | [#1961](https://leetcode.com/problems/maximum-ice-cream-bars/) |
+
+---
+
 ## 🚀 What is Coming Next
 
 - [ ] Complete all core Array patterns (~40 problems)
-- [ ] Start **Strings** topic — Sliding Window, HashMap
+- [x] Start **Strings** topic — 11 problems solved ✅
+- [ ] Continue **Strings** topic — Sliding Window, HashMap
 - [ ] Add **Linked Lists** — Fast & Slow Pointer, Reverse
 - [ ] Add **Trees** — DFS, BFS, BST
 - [ ] Tackle first **Hard** level problems
