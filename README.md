@@ -35,33 +35,52 @@ I started this challenge to:
 
 ---
 
-## 📁 Repository Structure
+## 📁 Repository Structure  *(Fraz-style)*
+
 ```
 DSA-challenge/
 │
 ├── 📄 README.md
 │
-Arrays/                 ✅ Active — 71 Solved
-│   ├── 📄 README.md
-│   ├── 📄 README.md (hierarchy)
-│   ├── 01-Binary-Search/
+├── 01-Arrays/              ✅ Active
 │   ├── 02-Two-Pointer/
 │   ├── 03-Kadanes-Algorithm/
 │   ├── 04-Array-Rotation-and-Manipulation/
 │   ├── 05-Matrix-2D-Array/
-│   ├── 06-Monotonic-Stack/
 │   ├── 07-Prefix-Suffix/
 │   ├── 08-HashMap-HashSet/
-│   └── 09-Greedy/
+│   └── <loose array problems>
 │
-├── 📂 Strings/                ✅ Active — 11 Solved
-│   └── 📄 README.md
+├── 02-Strings/             ✅ Active
+│   └── <string problems>
 │
-├── 📂 LinkedList/             ⏳ Soon
-│   └── 📄 README.md
+├── 03-LinkedList/          ⏳ Coming Soon
 │
-└── 📂 Trees/                  ⏳ Soon
-    └── 📄 README.md
+├── 04-Stack-and-Queue/     ✅ Active
+│   └── <stack / queue problems>
+│
+├── 05-Trees/               ⏳ Coming Soon
+│
+├── 06-Binary-Search/       ✅ Active
+│   └── <binary search problems>
+│
+├── 07-Heap/                ✅ Active
+│   └── <heap / priority queue problems>
+│
+├── 08-Graph/               ✅ Active
+│   └── <graph problems>
+│
+├── 09-Dynamic-Programming/ ✅ Active
+│   └── <DP problems>
+│
+├── 10-Greedy/              ✅ Active
+│   └── <greedy problems>
+│
+├── 11-Bit-Manipulation/    ✅ Active
+│   └── <bit manipulation problems>
+│
+└── 12-Math/                ✅ Active
+    └── <math / number theory problems>
 ```
 
 ---
@@ -71,13 +90,20 @@ Arrays/                 ✅ Active — 71 Solved
 ╔══════════════════════════════════════════════════════════════╗
 ║  TOPIC PROGRESS                                              ║
 ╠══════════════════════════════════════════════════════════════╣
-Arrays        ████████████████████░░  71 / ~100  🔥 Active    ║
-║  Strings       ████████░░░░░░░░░░░░  11 / ~20   🔥 Active    ║
-║  Linked Lists  ░░░░░░░░░░░░░░░░░░░░   0 / ~15   ⏳ Soon     ║
-║  Trees         ░░░░░░░░░░░░░░░░░░░░   0 / ~20   ⏳ Soon     ║
-║  Dynamic Prog  ░░░░░░░░░░░░░░░░░░░░   0 / ~25   ⏳ Soon     ║
+║  01-Arrays          ████████████████████░░  Active 🔥       ║
+║  02-Strings         ████████░░░░░░░░░░░░    Active 🔥       ║
+║  03-LinkedList      ░░░░░░░░░░░░░░░░░░░░    Coming ⏳       ║
+║  04-Stack-and-Queue ████████░░░░░░░░░░░░    Active 🔥       ║
+║  05-Trees           ░░░░░░░░░░░░░░░░░░░░    Coming ⏳       ║
+║  06-Binary-Search   ████████████░░░░░░░░    Active 🔥       ║
+║  07-Heap            ████░░░░░░░░░░░░░░░░    Active 🔥       ║
+║  08-Graph           ████░░░░░░░░░░░░░░░░    Active 🔥       ║
+║  09-DP              ████░░░░░░░░░░░░░░░░    Active 🔥       ║
+║  10-Greedy          ████████░░░░░░░░░░░░    Active 🔥       ║
+║  11-Bit-Manipulation████░░░░░░░░░░░░░░░░    Active 🔥       ║
+║  12-Math            ████░░░░░░░░░░░░░░░░    Active 🔥       ║
 ╠══════════════════════════════════════════════════════════════╣
-║  Total Solved  ████████░░░░░░░░░░░░  82 / ~180 Problems      ║
+║  Total Solved  ████████░░░░░░░░░░░░  82 / ~180 Problems     ║
 ╚══════════════════════════════════════════════════════════════╝
 ```
 ```
@@ -164,11 +190,12 @@ DIFFICULTY BREAKDOWN
 ## 🚀 What is Coming Next
 
 - [ ] Complete all core Array patterns (~40 problems)
-- [x] Start **Strings** topic — 11 problems solved ✅
-- [ ] Continue **Strings** topic — Sliding Window, HashMap
-- [ ] Add **Linked Lists** — Fast & Slow Pointer, Reverse
-- [ ] Add **Trees** — DFS, BFS, BST
-- [ ] Tackle first **Hard** level problems
+- [x] Start **Strings** topic — problems solved ✅
+- [ ] Continue **Strings** — Sliding Window, HashMap patterns
+- [ ] Add **Linked Lists** (03-LinkedList) — Fast & Slow Pointer, Reverse
+- [ ] Add **Trees** (05-Trees) — DFS, BFS, BST
+- [ ] Grow **Binary Search** (06-Binary-Search) problems
+- [ ] Grow **Dynamic Programming** (09-Dynamic-Programming)
 - [ ] Add time and space complexity notes to each solution
 
 ---
