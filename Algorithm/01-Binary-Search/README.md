@@ -11,19 +11,19 @@ Binary search divides the search space in half each iteration, achieving O(log n
 
 ## Problems
 
-| # | Problem | Sub-technique |
-|---|---------|---------------|
-| 33 | Search in Rotated Sorted Array | ModifiedBinarySearch |
-| 34 | Find First and Last Position of Element in Sorted Array | BinarySearch |
-| 35 | Search Insert Position | BinarySearch |
-| 81 | Search in Rotated Sorted Array II | ModifiedBinarySearch |
-| 153 | Find Minimum in Rotated Sorted Array | ModifiedBinarySearch |
-| 162 | Find Peak Element | BinarySearch |
-| 540 | Single Element in a Sorted Array | BinarySearch |
-| 907 | Koko Eating Bananas | BinarySearchOnAnswer |
-| 1056 | Capacity to Ship Packages Within D Days | BinarySearchOnAnswer |
-| 1408 | Find the Smallest Divisor Given a Threshold | BinarySearchOnAnswer |
-| 1605 | Minimum Number of Days to Make m Bouquets | BinarySearchOnAnswer |
-| 1646 | Kth Missing Positive Number | BinarySearch |
-| 1984 | Maximum Distance Between a Pair of Values | BinarySearch |
-| 3781 | Maximize the Distance Between Points on a Square | BinarySearchOnAnswer |
+| # | Sub-technique |
+|---|---------------|
+| 33 | ModifiedBinarySearch |
+| 34 | BinarySearch |
+| 35 | BinarySearch |
+| 81 | ModifiedBinarySearch |
+| 153 | ModifiedBinarySearch |
+| 162 | BinarySearch |
+| 540 | BinarySearch |
+| 907 | BinarySearchOnAnswer |
+| 1056 | BinarySearchOnAnswer |
+| 1408 | BinarySearchOnAnswer |
+| 1605 | BinarySearchOnAnswer |
+| 1646 | BinarySearch |
+| 1984 | BinarySearch |
+| 3781 | BinarySearchOnAnswer |
