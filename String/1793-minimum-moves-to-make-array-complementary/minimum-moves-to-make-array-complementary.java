@@ -1,47 +1,30 @@
-class Solution {
+public class Solution {
+
     public int minMoves(int[] nums, int limit) {
-
         int n = nums.length;
-
         int[] diff = new int[2 * limit + 2];
 
-        for(int i = 0; i < n / 2; i++) {
+        for (int i = 0; i < n / 2; i++) {
+            int a = nums[i], b = nums[n - 1 - i];
+            int low = Math.min(a, b) + 1;
+            int high = Math.max(a, b) + limit;
 
-            int a = nums[i];
-            int b = nums[n - i - 1];
-
-            if(a > b) {
-                int temp = a;
-                a = b;
-                b = temp;
-            }
-
-            int sum = a + b;
-
-            int left = a + 1;
-            int right = b + limit;
-
-            // Assume 2 moves for all sums
             diff[2] += 2;
-            diff[2 * limit + 1] -= 2;
-
-            // 1 move range
-            diff[left] -= 1;
-            diff[right + 1] += 1;
-
-            // 0 move point
-            diff[sum] -= 1;
-            diff[sum + 1] += 1;
+            diff[low] -= 1;
+            diff[a + b] -= 1;
+            diff[a + b + 1] += 1;
+            diff[high + 1] += 1;
         }
 
-        int res = Integer.MAX_VALUE;
+        int ans = Integer.MAX_VALUE;
         int curr = 0;
 
-        for(int s = 2; s <= 2 * limit; s++) {
-            curr += diff[s];
-            res = Math.min(res, curr);
+        for (int sum = 2; sum <= 2 * limit; sum++) {
+            curr += diff[sum];
+            ans = Math.min(ans, curr);
         }
 
-        return res;
+        return ans;
     }
+
 }
